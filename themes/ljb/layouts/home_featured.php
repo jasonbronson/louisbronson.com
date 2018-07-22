@@ -1,0 +1,4 @@
+<?php
+/**
+ * Homepage Hero Layout
+ */

@@ -1,0 +1,95 @@
+.header {
+  .btn-outline-primary {
+    color: #151D3A;
+    background-color: transparent;
+    background-image: none;
+    border-color: #151D3A;
+  }
+}
+.logo{
+  width: 250px;
+}
+.bg-light{
+  background-color: white !important;
+}
+.hero{
+   background-image: url('/wp-content/themes/ljb/img/plumber3.jpg');
+   background-color: white;
+   @include background-cover;
+  //  height: 700px;
+
+    @media screen and (min-width:300px) {
+      button{
+          padding: 10px;
+          font-size: 14px;
+          
+      }
+    }
+    @media screen and (min-width:700px) {
+      font-size:19px;
+      button{
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+      }
+    }
+    
+   .btn-blue{
+    color:$darkblue;
+    border-color:$darkblue;
+    }
+    .color-white{
+        color:white;
+    }
+    .hero-text{
+      padding: 10px;
+      background-color: rgba(0, 0, 0, $transparency);
+      color: white;
+      width: 100%;
+      text-align: center;
+    }
+    .checklist{
+        padding:10px;
+        @media screen and (min-width:1025px) {
+          background-color:rgba(0, 0, 0, $transparency);
+        }
+         
+        z-index: 999;
+        border: 0px solid red;
+        color:white;
+    }
+    .offer_row{
+        color:white;
+    }
+    .offer{
+        @media screen and (min-width:1025px) {
+          background-color:rgba(0, 0, 0, $transparency);
+        }
+        @media screen and (min-width:400px) {
+          width: 200px;
+        }
+        min-height:70px;
+        padding:10px;
+        height: 180px;
+        text-align: center;
+    }
+    .banner-cta{
+        text-align:center;
+        color:white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .banner-cta a {
+        color:white;
+        padding: 20px;
+    }
+    .hero-text2{
+      @media screen and (max-width:1025px) {
+        background-color:rgba(0, 0, 0, $transparency);
+        
+      }
+    }
+    .coupon-box{
+      border-top: 1px solid darkred;
+      padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,7 @@
+//Functions
+$assetPath: "/wp-content/themes/ljb/";
+
+
+@function getAssetPath($assetPath){
+    @return $assetPath;
+  }
