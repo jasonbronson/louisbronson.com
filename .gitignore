@@ -2,3 +2,4 @@ debug.log
 themes/ljb/src/node_modules/*
 uploads
 themes/ljb/css/*
+.DS_STORE
