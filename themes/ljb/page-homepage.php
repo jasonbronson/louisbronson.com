@@ -87,7 +87,7 @@ get_header();
         <h5>Affordable, Dependable, Professional, Old School Values, Amazing are what comes to mind from our customers. </h5>
         <p>Make sure to get a Free Quote from us. We love our customers and they love us. It's a long term relationship not a one time call.</p>
         <button class="btn btn-primary btn-lg">
-                  <a href="tel:(518) 796-2516">Call Or Text Now <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
+                  <a href="tel:(518) 796-2516"  onclick="gtag_report_conversion()">Call Or Text Now <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
                 </button>
     </div>
 </div>

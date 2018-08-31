@@ -5,6 +5,35 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?php echo the_title() . '' ?></title>
+
+	<!-- Global site tag (gtag.js) - Google Ads: 962561534 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-962561534"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-962561534');
+</script>
+
+<!-- Event snippet for Click to Call on Website conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    // if (typeof(url) != 'undefined') {
+    //   window.location = url;
+    // }
+	console.log("Fired Callback");
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-962561534/eeDVCPqasYgBEP6L_soD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 	<?php wp_head(); ?>
 </head>
 <body>
@@ -40,7 +69,7 @@
                   
                 </li>
 				</ul>
-				<a class="nav-link" href="tel:(518) 796-2516">Call <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
+				<a class="nav-link" href="tel:(518) 796-2516"  onclick="gtag_report_conversion()">Call <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
 				<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-primary btn-blue" type="submit">Search</button>
