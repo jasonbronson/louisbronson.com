@@ -19,7 +19,7 @@
 <!-- Event snippet for Click to Call on Website conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
-function gtag_report_conversion(url) {
+function gtag_report_conversion() {
   var callback = function () {
     // if (typeof(url) != 'undefined') {
     //   window.location = url;

@@ -13,7 +13,7 @@
       </div>
       <div class="banner-cta">
                 <button class="btn btn-primary btn-lg">
-                  <a href="tel:(518) 796-2516">Call Or Text Now <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
+                  <a href="tel:(518) 796-2516"  onclick="gtag_report_conversion()">Call Or Text Now <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
                 </button>
       </div>   
       
