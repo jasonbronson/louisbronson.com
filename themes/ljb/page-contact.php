@@ -103,4 +103,7 @@ get_header();
 </section>
 <!-- Contact -->
 
+
+</div>
+
 <?php get_footer(); ?>

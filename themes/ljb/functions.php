@@ -1,5 +1,5 @@
 <?php
-$app_ver = '1.0'; // major.minor.patch.build/pull-request
+$app_ver = '20181113'.rand(0,999999); // major.minor.patch.build/pull-request
 /**
  * Widgets and functions get loaded in separate files keeping this file clean! Do not put items here in this file.
 */
