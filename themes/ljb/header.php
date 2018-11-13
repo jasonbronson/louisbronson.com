@@ -62,18 +62,19 @@ function gtag_report_conversion() {
 					<a class="dropdown-item" href="#">Plumbing Projects</a>
 					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
-				</li>
-				<li> 
-                  
-                </li>
+					<?php 
+					
+					 $primaryNav = Libraries\Menu::getMenu();
+					 
+					?>
+					
 				</ul>
+
 				<a class="nav-link" href="tel:(518) 796-2516"  onclick="gtag_report_conversion()">Call <i class="fa fa-phone" aria-hidden="true"></i> (518) 796-2516</a>
-				<form class="form-inline my-2 my-lg-0">
+				<!--form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 				<button class="btn btn-outline-primary btn-blue" type="submit">Search</button>
-				</form>
+				</form-->
 			</div>
 		</nav>
 			

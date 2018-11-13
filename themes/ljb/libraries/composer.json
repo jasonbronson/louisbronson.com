@@ -1,0 +1,23 @@
+{
+    "name": "jasonbronson/libraries",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jason Bronson",
+            "email": "jbronson@gxm.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        
+    },
+    "autoload": {
+        "classmap": [
+          "."
+        ]
+      },
+    "scripts": {
+      "post-update-cmd": "Libraries\\ComposerTasks::postUpdate",
+      "post-install-cmd": "Libraries\\ComposerTasks::postInstall"
+    }
+}

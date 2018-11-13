@@ -8,7 +8,7 @@ define('DATE_FORMAT', 'M j, Y');
 //Libraries & functions go here
 
 //autoload libraries folder
-require_once(THEME_PATH . '/libraries/autoload.php');
+require_once(THEME_PATH . '/libraries/vendor/autoload.php');
 
 // Enqueue styles and scripts
 function add_theme_styles() {
