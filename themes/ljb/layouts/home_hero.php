@@ -9,7 +9,7 @@
   <div class="container-fluid">
       <div class="hero-text">
               <h1>Licensed & Insured for Plumbing & Electrical</h1>             
-              <h3>Residential &amp; Commercial Plumbing Experts</h3> 
+              <h3>Residential Plumbing Experts</h3> 
       </div>
       <div class="banner-cta">
                 <button class="btn btn-primary btn-lg">

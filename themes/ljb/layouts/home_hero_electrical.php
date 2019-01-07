@@ -9,7 +9,7 @@
   <div class="container-fluid">
       <div class="hero-text">
               <h1>Licensed & Insured Electrician</h1>             
-              <h3>Residential &amp; Commercial Jobs</h3> 
+              <h3>Residential Jobs</h3> 
       </div>
       <div class="banner-cta">
                 <button class="btn btn-primary btn-lg">

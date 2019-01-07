@@ -67,7 +67,7 @@ $content = apply_filters('the_content', get_post_field('post_content', $page->ID
                             <div class="col-md-6"> <i class="fas fa-check"> Barn Electrical Installations </i></div>
                     </div>
                     <div class="row">
-                            <div class="col-md-6"><i class="fas fa-check"> Electrical Commercial Services </i></div>
+                            <div class="col-md-6"><i class="fas fa-check"> Electrical Residential Services </i></div>
                             <div class="col-md-6"> <i class="fas fa-check"> Electrical Residential Services</i></div>
                     </div>
                     <div class="row">
@@ -150,7 +150,7 @@ $content = apply_filters('the_content', get_post_field('post_content', $page->ID
                         <div class="col-md-6"> <i class="fas fa-check"> Barn Electrical Installations </i></div>
                 </div>
                 <div class="row">
-                        <div class="col-md-6"><i class="fas fa-check"> Electrical Commercial Services </i></div>
+                        <div class="col-md-6"><i class="fas fa-check"> Electrical Residential Services </i></div>
                         <div class="col-md-6"> <i class="fas fa-check"> Electrical Residential Services</i></div>
                 </div>
                 <div class="row">
